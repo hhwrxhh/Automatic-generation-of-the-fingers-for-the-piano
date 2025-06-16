@@ -1,0 +1,43 @@
+Model,Hand,Hidden Size,Num Layers,Block Length,Future Length,Inputs,Accuracy
+LSTM,right,32,2,11,5,"fingers, notes",0.632
+LSTM,left,32,2,11,5,"fingers, notes",0.706
+LSTM,right,32,2,11,5,"fingers, white_diff, black_diff",0.436
+LSTM,left,32,2,11,5,"fingers, white_diff, black_diff",0.572
+LSTM,right,32,2,11,5,"fingers, intervals",0.689
+LSTM,left,32,2,11,5,"fingers, intervals",0.766
+LSTM,right,32,2,11,5,"fingers, intervals, white_diff, black_diff",0.705
+LSTM,left,32,2,11,5,"fingers, intervals, white_diff, black_diff",0.794
+LSTM,right,32,2,11,5,"fingers, intervals, accidentals_current, accidentals_next",0.724
+LSTM,left,32,2,11,5,"fingers, intervals, accidentals_current, accidentals_next",0.79
+LSTM,right,32,2,11,5,"fingers, notes, accidentals_current, accidentals_next",0.643
+LSTM,left,32,2,11,5,"fingers, notes, accidentals_current, accidentals_next",0.73
+LSTM,right,32,2,11,5,"fingers, white_diff, black_diff, accidentals_current, accidentals_next",0.467
+LSTM,left,32,2,11,5,"fingers, white_diff, black_diff, accidentals_current, accidentals_next",0.579
+LSTM,right,32,2,11,5,"fingers, intervals, white_diff, black_diff, accidentals_current, accidentals_next",0.725
+LSTM,left,32,2,11,5,"fingers, intervals, white_diff, black_diff, accidentals_current, accidentals_next",0.794
+LSTM,right,32,2,11,5,"fingers, intervals, is_3_chord, is_4_chord, is_5_chord",0.692
+LSTM,left,32,2,11,5,"fingers, intervals, is_3_chord, is_4_chord, is_5_chord",0.766
+LSTM,right,32,2,11,5,"fingers, notes, is_3_chord, is_4_chord, is_5_chord",0.64
+LSTM,left,32,2,11,5,"fingers, notes, is_3_chord, is_4_chord, is_5_chord",0.699
+LSTM,right,32,2,11,5,"fingers, white_diff, black_diff, is_3_chord, is_4_chord, is_5_chord",0.453
+LSTM,left,32,2,11,5,"fingers, white_diff, black_diff, is_3_chord, is_4_chord, is_5_chord",0.58
+LSTM,right,32,2,11,5,"fingers, intervals, white_diff, black_diff, is_3_chord, is_4_chord, is_5_chord",0.71
+LSTM,left,32,2,11,5,"fingers, intervals, white_diff, black_diff, is_3_chord, is_4_chord, is_5_chord",0.764
+LSTM,right,32,2,11,5,"fingers, intervals, chord_tonic, chord_sixth, chord_second_inversion",0.697
+LSTM,left,32,2,11,5,"fingers, intervals, chord_tonic, chord_sixth, chord_second_inversion",0.768
+LSTM,right,32,2,11,5,"fingers, notes, chord_tonic, chord_sixth, chord_second_inversion",0.628
+LSTM,left,32,2,11,5,"fingers, notes, chord_tonic, chord_sixth, chord_second_inversion",0.718
+LSTM,right,32,2,11,5,"fingers, white_diff, black_diff, chord_tonic, chord_sixth, chord_second_inversion",0.446
+LSTM,left,32,2,11,5,"fingers, white_diff, black_diff, chord_tonic, chord_sixth, chord_second_inversion",0.548
+LSTM,right,32,2,11,5,"fingers, intervals, white_diff, black_diff, chord_tonic, chord_sixth, chord_second_inversion",0.715
+LSTM,left,32,2,11,5,"fingers, intervals, white_diff, black_diff, chord_tonic, chord_sixth, chord_second_inversion",0.784
+LSTM,right,32,2,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.732
+LSTM,left,32,2,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.782
+LSTM,right,32,2,11,5,"fingers, notes, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.645
+LSTM,left,32,2,11,5,"fingers, notes, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.729
+LSTM,right,32,2,11,5,"fingers, white_diff, black_diff, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.457
+LSTM,left,32,2,11,5,"fingers, white_diff, black_diff, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.582
+LSTM,right,32,2,11,5,"fingers, intervals, white_diff, black_diff, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.725
+LSTM,left,32,2,11,5,"fingers, intervals, white_diff, black_diff, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.788
+LSTM,right,32,2,11,5,"fingers, intervals, white_diff, black_diff, accidentals_current, accidentals_next, is_3_chord, is_4_chord, is_5_chord, chord_tonic, chord_sixth, chord_second_inversion",0.721
+LSTM,left,32,2,11,5,"fingers, intervals, white_diff, black_diff, accidentals_current, accidentals_next, is_3_chord, is_4_chord, is_5_chord, chord_tonic, chord_sixth, chord_second_inversion",0.798

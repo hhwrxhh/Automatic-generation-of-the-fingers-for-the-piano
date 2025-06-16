@@ -1,0 +1,6 @@
+fingers
+intervals
+notes
+chord_tonic
+chord_sixth
+chord_second_inversion

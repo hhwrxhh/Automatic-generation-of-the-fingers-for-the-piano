@@ -1,0 +1,6 @@
+fingers
+intervals
+white_diff
+black_diff
+accidentals_current
+accidentals_next

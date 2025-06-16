@@ -1,0 +1,19 @@
+Model,Hand,Hidden Size,Num Layers,Block Length,Future Length,Inputs,Accuracy
+GRU,right,16,1,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.68
+GRU,left,16,1,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.755
+GRU,right,16,2,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.718
+GRU,left,16,2,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.775
+GRU,right,16,3,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.722
+GRU,left,16,3,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.763
+GRU,right,32,1,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.691
+GRU,left,32,1,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.768
+GRU,right,32,2,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.72
+GRU,left,32,2,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.783
+GRU,right,32,3,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.732
+GRU,left,32,3,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.792
+GRU,right,64,1,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.707
+GRU,left,64,1,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.786
+GRU,right,64,2,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.731
+GRU,left,64,2,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.786
+GRU,right,64,3,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.734
+GRU,left,64,3,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.787

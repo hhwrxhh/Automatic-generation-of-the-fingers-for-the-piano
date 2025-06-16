@@ -1,0 +1,7 @@
+fingers
+intervals
+accidentals_current
+accidentals_next
+chord_tonic
+chord_sixth
+chord_second_inversion

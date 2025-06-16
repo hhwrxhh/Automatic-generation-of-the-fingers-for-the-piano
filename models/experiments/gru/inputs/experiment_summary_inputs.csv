@@ -1,0 +1,43 @@
+Model,Hand,Hidden Size,Num Layers,Block Length,Future Length,Inputs,Accuracy
+GRU,right,32,2,11,5,"fingers, notes",0.646
+GRU,left,32,2,11,5,"fingers, notes",0.713
+GRU,right,32,2,11,5,"fingers, white_diff, black_diff",0.463
+GRU,left,32,2,11,5,"fingers, white_diff, black_diff",0.576
+GRU,right,32,2,11,5,"fingers, intervals",0.697
+GRU,left,32,2,11,5,"fingers, intervals",0.774
+GRU,right,32,2,11,5,"fingers, intervals, white_diff, black_diff",0.721
+GRU,left,32,2,11,5,"fingers, intervals, white_diff, black_diff",0.787
+GRU,right,32,2,11,5,"fingers, intervals, accidentals_current, accidentals_next",0.722
+GRU,left,32,2,11,5,"fingers, intervals, accidentals_current, accidentals_next",0.774
+GRU,right,32,2,11,5,"fingers, notes, accidentals_current, accidentals_next",0.667
+GRU,left,32,2,11,5,"fingers, notes, accidentals_current, accidentals_next",0.75
+GRU,right,32,2,11,5,"fingers, white_diff, black_diff, accidentals_current, accidentals_next",0.491
+GRU,left,32,2,11,5,"fingers, white_diff, black_diff, accidentals_current, accidentals_next",0.612
+GRU,right,32,2,11,5,"fingers, intervals, white_diff, black_diff, accidentals_current, accidentals_next",0.731
+GRU,left,32,2,11,5,"fingers, intervals, white_diff, black_diff, accidentals_current, accidentals_next",0.781
+GRU,right,32,2,11,5,"fingers, intervals, is_3_chord, is_4_chord, is_5_chord",0.7
+GRU,left,32,2,11,5,"fingers, intervals, is_3_chord, is_4_chord, is_5_chord",0.77
+GRU,right,32,2,11,5,"fingers, notes, is_3_chord, is_4_chord, is_5_chord",0.644
+GRU,left,32,2,11,5,"fingers, notes, is_3_chord, is_4_chord, is_5_chord",0.721
+GRU,right,32,2,11,5,"fingers, white_diff, black_diff, is_3_chord, is_4_chord, is_5_chord",0.484
+GRU,left,32,2,11,5,"fingers, white_diff, black_diff, is_3_chord, is_4_chord, is_5_chord",0.598
+GRU,right,32,2,11,5,"fingers, intervals, white_diff, black_diff, is_3_chord, is_4_chord, is_5_chord",0.714
+GRU,left,32,2,11,5,"fingers, intervals, white_diff, black_diff, is_3_chord, is_4_chord, is_5_chord",0.787
+GRU,right,32,2,11,5,"fingers, intervals, chord_tonic, chord_sixth, chord_second_inversion",0.69
+GRU,left,32,2,11,5,"fingers, intervals, chord_tonic, chord_sixth, chord_second_inversion",0.764
+GRU,right,32,2,11,5,"fingers, notes, chord_tonic, chord_sixth, chord_second_inversion",0.642
+GRU,left,32,2,11,5,"fingers, notes, chord_tonic, chord_sixth, chord_second_inversion",0.746
+GRU,right,32,2,11,5,"fingers, white_diff, black_diff, chord_tonic, chord_sixth, chord_second_inversion",0.47
+GRU,left,32,2,11,5,"fingers, white_diff, black_diff, chord_tonic, chord_sixth, chord_second_inversion",0.59
+GRU,right,32,2,11,5,"fingers, intervals, white_diff, black_diff, chord_tonic, chord_sixth, chord_second_inversion",0.727
+GRU,left,32,2,11,5,"fingers, intervals, white_diff, black_diff, chord_tonic, chord_sixth, chord_second_inversion",0.768
+GRU,right,32,2,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.724
+GRU,left,32,2,11,5,"fingers, intervals, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.789
+GRU,right,32,2,11,5,"fingers, notes, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.655
+GRU,left,32,2,11,5,"fingers, notes, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.754
+GRU,right,32,2,11,5,"fingers, white_diff, black_diff, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.499
+GRU,left,32,2,11,5,"fingers, white_diff, black_diff, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.608
+GRU,right,32,2,11,5,"fingers, intervals, white_diff, black_diff, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.712
+GRU,left,32,2,11,5,"fingers, intervals, white_diff, black_diff, accidentals_current, accidentals_next, chord_tonic, chord_sixth, chord_second_inversion",0.788
+GRU,right,32,2,11,5,"fingers, intervals, white_diff, black_diff, accidentals_current, accidentals_next, is_3_chord, is_4_chord, is_5_chord, chord_tonic, chord_sixth, chord_second_inversion",0.722
+GRU,left,32,2,11,5,"fingers, intervals, white_diff, black_diff, accidentals_current, accidentals_next, is_3_chord, is_4_chord, is_5_chord, chord_tonic, chord_sixth, chord_second_inversion",0.793

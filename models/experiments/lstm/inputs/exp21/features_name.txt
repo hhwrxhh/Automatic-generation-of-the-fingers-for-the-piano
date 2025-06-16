@@ -1,0 +1,12 @@
+fingers
+intervals
+white_diff
+black_diff
+accidentals_current
+accidentals_next
+is_3_chord
+is_4_chord
+is_5_chord
+chord_tonic
+chord_sixth
+chord_second_inversion

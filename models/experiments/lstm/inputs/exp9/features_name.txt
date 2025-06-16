@@ -1,0 +1,5 @@
+fingers
+intervals
+is_3_chord
+is_4_chord
+is_5_chord

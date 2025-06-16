@@ -1,0 +1,7 @@
+fingers
+intervals
+white_diff
+black_diff
+chord_tonic
+chord_sixth
+chord_second_inversion

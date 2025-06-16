@@ -1,0 +1,3 @@
+Model,Hand,Hidden Size,Num Layers,Block Length,Future Length,Inputs,Accuracy
+LSTM_Attention,right,64,2,11,5,"fingers, intervals, chord_tonic, chord_sixth, chord_second_inversion",0.672
+LSTM_Attention,left,64,2,11,5,"fingers, intervals, chord_tonic, chord_sixth, chord_second_inversion",0.76

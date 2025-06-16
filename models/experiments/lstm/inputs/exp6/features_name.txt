@@ -1,0 +1,4 @@
+fingers
+notes
+accidentals_current
+accidentals_next

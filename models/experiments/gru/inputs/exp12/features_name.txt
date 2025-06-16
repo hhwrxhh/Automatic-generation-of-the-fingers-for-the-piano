@@ -1,0 +1,7 @@
+fingers
+intervals
+white_diff
+black_diff
+is_3_chord
+is_4_chord
+is_5_chord
